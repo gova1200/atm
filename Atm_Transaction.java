@@ -30,6 +30,10 @@ public  class Atm_Transaction
 				  System.out.println("please take your money");
 				  System.out.println("current balance: "+balance);
 			  }
+			   else
+			     {
+				System.out.println("insufficient Balance :(  , please check it once");
+			      }
 			  break;
 		  case 2:
 			  System.out.println("please enter money to deposit");
